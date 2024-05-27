@@ -1,0 +1,147 @@
+@font-face {
+    font-family: mainFont;
+    src: url(./fonts/Poppins/Poppins-Medium.ttf);
+}
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    
+}
+html,body{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    width: 100%;
+}
+body{
+    padding-inline: 2rem;
+    font-family: mainFont;
+    position: relative;
+}
+.page1{
+    max-width: 100vw;
+    height: 100vh;
+    display:grid;
+    grid-template-rows: max-content 1fr;
+    position: relative;
+}
+.nav{
+  display:grid;
+  grid-template-columns: max-content 1fr; 
+  justify-content: space-between;
+  gap: 10rem;
+  /* font-size: 1.1rem; */
+}
+.navR{
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-weight: 550;
+    /* border:2px solid red; */
+
+
+}
+.logo{
+    max-width: 140px;
+}
+.logo>img{
+    width:100%;
+    height:100%
+}
+.shopButton{
+    color:white;
+    background-color: rgb(253, 80, 17);
+    padding: 0.5rem 2em;
+    border-radius: 1.5rem;
+    display: grid;
+    place-items: center;
+    max-width: fit-content;
+}
+.shopButton1{
+    color:white;
+    background-color: rgb(253, 80, 17);
+    padding: 0.5rem 2em;
+    border-radius: 1.5rem;
+    display: grid;
+    place-items: center;
+    max-width: fit-content;
+    font-size: 1.3rem;
+}
+.page1Main{
+    /* border:2px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position:relative;
+    gap:1.5rem
+
+}
+.largeCircle{
+    width: 550px;
+    border: 3.5px solid rgb(3, 216, 216);
+    aspect-ratio: 1;
+    border-radius: 50%;
+    position: absolute;
+    z-index: -1;
+    top:50%;
+    left:50%;
+    transform: translateX(-50%) translateY(-50%);
+    
+}
+.page1H{
+    font-size: 4.3rem;
+    /* font-weight: 540; */
+    text-align: center;
+    line-height: 5rem;
+}
+.page1Desc{
+    font-size: 1.1rem;
+}
+
+/*main bottle section*/
+/* .Cap{
+    position: absolute;
+    border: 2px solid red;
+    display: flex;
+    flex-direction: column;
+    height: min-content;
+    top:50%;
+    left:50%;
+    transform: translateX(-47%) translateY(-146%); 
+    
+} */
+.cap{
+    position: absolute;
+    width: 165px;
+    z-index: 3;
+    top:50%;
+    left:50%;
+    transform: translateX(-47%) translateY(-266%); 
+}
+.cap1{
+    position: absolute;
+    width: 130px;
+    top:50%;
+    left:50%; 
+    transform: translateX(-49%) translateY(-225%); 
+    z-index: 2;
+}
+.openedBottle{
+    position: absolute;
+    width: 850px;
+    top:50%;
+    left:50%;
+    transform: translateX(-50%) translateY(-18.5%);
+    z-index: 2;
+}
+
+
+/*page2*/
+.page2{
+    max-width:100vw;
+    height: 100vh;
+}
