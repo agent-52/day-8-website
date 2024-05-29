@@ -121,14 +121,14 @@ body{
     z-index: 3;
     top:50%;
     left:50%;
-    transform: translateX(-47%) translateY(-266%); 
+    transform: translateX(-48%) translateY(-3110%); 
 }
 .cap1{
     position: absolute;
     width: 130px;
     top:50%;
     left:50%; 
-    transform: translateX(-49%) translateY(-225%); 
+    transform: translateX(-50%) translateY(-3745%); 
     z-index: 2;
 }
 .openedBottle{
